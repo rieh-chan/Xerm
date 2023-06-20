@@ -1,5 +1,10 @@
-<p>This is app component.{{title}}</p>
-<a routerLink="admin">Admin</a>
-<a routerLink="home">Home</a>
+<mat-toolbar style="background-color: rgba(112, 143, 154, 0.281);">
+     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span><a routerLink="admin" style="margin-right: 15px;">Admin</a></span>
+<span><a routerLink="home">Home</a></span>
+  </mat-toolbar>
 
-<router-outlet></router-outlet>
+  
+  <router-outlet></router-outlet>
