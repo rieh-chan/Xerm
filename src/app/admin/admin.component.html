@@ -1,1 +1,42 @@
-<p>admin works!</p>
+<mat-sidenav-container style="background-color: lightblue;">
+    <div class="container-fluid" style="margin-top: 20px;"><mat-sidenav>Start</mat-sidenav>
+
+        <div class="profile-pic">
+          <p id="rcorners1">Pic</p>
+        </div>
+            
+        <mat-list role="list">
+            <mat-list-item role="listitem"><button mat-button>UserName</button></mat-list-item>
+           </mat-list>
+        <mat-sidenav position="end">End</mat-sidenav>
+
+        <mat-list role="list">
+            <mat-list-item role="listitem"><button mat-button>Exam</button></mat-list-item><mat-divider></mat-divider>
+            <mat-list-item role="listitem"><button mat-button>Exam Stats</button></mat-list-item><mat-divider></mat-divider>
+            <mat-list-item role="listitem"><button mat-button>Payments</button></mat-list-item><mat-divider></mat-divider>
+            <mat-list-item role="listitem"><button mat-button>Users</button></mat-list-item><mat-divider></mat-divider>
+            <mat-list-item role="listitem"><button mat-button>Settings</button></mat-list-item><mat-divider></mat-divider>
+           </mat-list>
+        <mat-sidenav position="end">End</mat-sidenav>
+    </div>
+    
+    <div class="logout_button" style="margin-top: 20px;">
+      <button mat-fab color="primary" aria-label="Example icon button with a logout_buttonicon">
+        <mat-icon>logout_button</mat-icon>
+      </button><p style="margin-top: 5px;">LogOut</p>
+    </div>
+
+  </mat-sidenav-container>
+
+
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Exam Name</mat-card-title>
+        <mat-card-subtitle>Duration</mat-card-subtitle>
+        <mat-card-subtitle>Select Question Paper</mat-card-subtitle>
+        <mat-card-subtitle>Price</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-actions>
+        <button mat-button mat-raised-button color="primary">Create</button>
+      </mat-card-actions>
+    </mat-card>
